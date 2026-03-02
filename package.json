@@ -1,0 +1,19 @@
+{
+  "name": "tech-strategist-mailer",
+  "version": "1.0.0",
+  "description": "Weekly AI tech research brief — sent to email + added to calendar",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "send": "node index.js",
+    "test-email": "node index.js --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "nodemailer": "^6.9.14",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5",
+    "ical-generator": "^8.0.0"
+  }
+}
